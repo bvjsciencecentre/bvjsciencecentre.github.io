@@ -1,13 +1,11 @@
 ---
 layout: default
 bodyClass: "page-events"
-cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 ---
 
 
 
-<div class="home">
-    
+<div class="container pt-6 pb-6">
     {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
 
     <div class="clearfix">
@@ -22,9 +20,9 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
       
           <a href="{{ post.url | relative_url }}">
             {% if post.cover %}
-            <div class="event-sqaure" style="background-image:url({{post.cover}});">
+            <div class="event-square" style="background-image:url({{post.cover}});">
             {% else %}
-            <div class="event-sqaure" style="background-image:url(http://evento.io/img/cover.jpg);">
+            <div class="event-square" style="background-image:url(http://evento.io/img/cover.jpg);">
             {% endif %}
               <h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
                <div class='event-square-overlay'></div>
