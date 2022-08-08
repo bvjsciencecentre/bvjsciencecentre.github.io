@@ -1,0 +1,75 @@
+---
+layout: default
+bodyClass: "page-events"
+---
+
+
+
+<div class="container pt-6 pb-6">
+
+    {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+
+    <div class="clearfix">
+
+      <h1 class="event-time-heading fix-top">Future {% if site.event_label %} {{site.event_label}} {% else %} Events {%
+        endif %} </h1>
+
+      {% for post in site.posts reversed %}
+
+      {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+
+      {% if blogDate >= currentDate %}
+
+
+
+      <a href="{{ post.url | relative_url }}">
+
+        {% if post.cover %}
+        <div class="event-sqaure" style="background-image:url({{post.cover}});">
+          {% else %}
+          <div class="event-sqaure"
+            style="background-image:url(http://app-beacon.com/wp-content/uploads/2015/05/events.jpg);">
+            {% endif %}
+
+              <h2>{{ post.title }}</h2>
+              <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+          </div>
+        </div>
+
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+</div>
+
+<div class="container pt-6 pb-6">
+
+  <div class="clearfix">
+
+    <h1 class="event-time-heading">Past {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif
+      %}
+    </h1>
+    {% for post in site.posts %}
+
+    {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+
+    {% if blogDate < currentDate %} <a href="{{ post.url | relative_url }}">
+      {% if post.cover %}
+      <div class="event-sqaure" style="background-image:url({{post.cover}});">
+        {% else %}
+        <div class="event-sqaure"
+          style="background-image:url(http://app-beacon.com/wp-content/uploads/2015/05/events.jpg);">
+          {% endif %}
+          <h2>{{ post.title }}</h2>
+          <p class="mb-4 pb-0">{{ post.date | date: "%b %-d, %Y" }}</p>
+        </div>
+
+        </a>
+
+        {% endif %}
+
+        {% endfor %}
+      </div>
+
+  </div>
+</div>

@@ -31,12 +31,25 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "eventpage"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
 plugins:
   - jekyll-environment-variables
+
+# Build settings
+markdown: kramdown
+
+#Have to show future posts for future events.
+future: true
+
+permalink: /events/:title.html
 
 exclude:
   - Gemfile
