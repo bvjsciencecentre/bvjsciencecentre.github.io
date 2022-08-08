@@ -2,14 +2,13 @@
 layout: post
 
 #event information
-title:  "Workshop on Financial Technology"
-cover: "http://blog.jetbrains.com/phpstorm/files/2015/10/large_v-trans.png"
-date:   2022-08-23
-start_time: "09:00 AM"
-end_time: "12:10 PM"
+title:  "FinTech and Blockchain Technology for the Common Man (Day 2)"
+date:   2022-08-11
+start_time: "10:30 AM"
+end_time: "04:00 PM"
 
 #event organiser details
-organiser: "Laura Frank"
+organiser: "BVJSC-KSTA"
 
 
 
