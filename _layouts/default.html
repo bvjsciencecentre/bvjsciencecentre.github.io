@@ -13,6 +13,10 @@
   <!-- Self host font -->
   <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+  
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   {% if page.description %}
   <meta name="description" content="{{ page.description }}" />{% endif %}
@@ -40,7 +44,7 @@
     {{content}}
   </div>
 
-<!--
+  <!--
   {% if page.cover %}
   <div class="blog-cover" style="background-image:url({{page.cover}});">
     {% else %}
@@ -50,10 +54,10 @@
   -->
 
 
-    {% include footer.html %}
-    {% include sub-footer.html %}
-    <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
-    {% include google-analytics.html %}
+  {% include footer.html %}
+  {% include sub-footer.html %}
+  <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  {% include google-analytics.html %}
 </body>
 
 </html>
