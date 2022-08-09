@@ -3,7 +3,7 @@ permalink: pretty
 title: 'BVJ Science Centre'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/logo-mobile.ico"
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/logo.png"
@@ -11,7 +11,7 @@ logo:
   desktop_width: "120px"
 
 home: 
-  limit_services: 6
+  limit_activities: 6
 
 collections:
   services:

@@ -1,4 +1,5 @@
 google_analytics_id: ""  
 meta_twitter_site: "@BvjCentre"
 meta_twitter_creator: "@BvjCentre"
-copyright_text: 'Powered by <a class="zerostatic" href="https://www.zerostatic.io">Jekyll</a>'
+copyright_text: '&copy; 2022 BVJ Science Centre'
+poweredby_text: 'Powered by <a class="zerostatic" href="https://www.zerostatic.io">Jekyll</a>'

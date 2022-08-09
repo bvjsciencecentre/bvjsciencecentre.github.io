@@ -8,5 +8,20 @@
     "name": "Twitter",
     "link": "https://twitter.com/BvjCentre",
     "image": "images/social/twitter.svg"
+  },
+  {
+    "name": "Facebook",
+    "link": "https://www.facebook.com/bvjsci",
+    "image": "images/social/facebook.svg"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://www.instagram.com/bvj.sci/",
+    "image": "images/social/instagram.svg"
+  },
+  {
+    "name": "Youtube",
+    "link": "https://www.youtube.com/channel/UCGhzErLIBdgtPmk_VTpC1cA/",
+    "image": "images/social/youtube.svg"
   }
 ]

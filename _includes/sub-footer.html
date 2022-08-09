@@ -1,14 +1,108 @@
+
+
 <div class="sub-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="sub-footer-inner">
-          {% if site.data.social %}
-            {% include social.html %}
-          {% endif %}
-          {% if site.data.seo.copyright_text %}
-          <div class="copyright">{{ site.data.seo.copyright_text }}</div>
-          {% endif %}
+  <div class="container-fluid px-0 py-4 mx-auto">
+    <div class="row justify-content-center mx-auto">
+      <div class="col-12 px-xs-0 col-md-11">
+        <div class="card">
+          <div class="row justify-content-center">
+            <!-- Left Side Content -->
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="box">
+                    <h4>Help us make cool things!</h4> <a href="">
+                      <p class="button">Join Membership</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="box">
+                    <h4>Location</h4>
+                    <address class="text-wrap">BVJ Science Centre,
+                      The National College Jayanagar Campus,
+                      36th 'A' Cross, Jayanagar 7th Block,
+                      Bengaluru-560070
+                    </address>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="box">
+                    <h4>Want to create something together?</h4> <a href="#">
+                      <p class="button">Get in touch</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 pb-5">
+                  <div class="box">
+                    <h4>email</h4>
+                    <email>bvjsci@gmail.com</email>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <!-- Right Side Content -->
+                <h4 class="form-head">Keep up with news from us</h4>
+                <form onsubmit="event.preventDefault()" class="form-control">
+                  <div class="form-group">
+                    <div class="col-12 get-input"> <input id="e-mail" type="text" placeholder="first.last@gmail.com"
+                        name="email" class="form-control input-box rm-border" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'first.last@gmail.com'"> </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-12 get-input">
+                      <div class="custom-control custom-checkbox custom-control-inline"> <input id="chk1"
+                          type="checkbox" name="chk" class="custom-control-input"> <label for="chk1"
+                          class="custom-control-label consent">I give my consent that my personal information can be
+                          collected and used according to the <a href="#"><span>Privacy Policy</span></a></label> </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12 px-4 py-2 get-input pb-5 mb-5"> <button type="submit"
+                        class="btn btn-submit rm-border">YES PLEASE</button> </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div> <!-- Bottom Content -->
+
+
+
+
+
+
+          <div class="row">
+            <div class="col-md-2">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="logo">
+                  <a href="{{ site.baseurl }}"><img width="{{ site.logo.desktop_width }}"
+                      height="{{ site.logo.desktop_height }}" alt="{{ site.title }}"
+                      src="{{ site.logo.desktop | relative_url }}" /></a>
+                </div>
+                <div class="logo-mobile">
+                  <a href="{{ site.baseurl }}"><img width="{{ site.logo.mobile_width }}"
+                      height="{{ site.logo.mobile_height }}" alt="{{ site.title }}"
+                      src="{{ site.logo.mobile | relative_url }}" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 d-flex justify-content-center mb-3">
+              
+              {% assign footermenu = site.data.menus.footer | sort: 'weight' %}
+              {% for item in footermenu %}
+              
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3 button-primary">
+                  <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+              </div>
+              
+              {% endfor %}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
