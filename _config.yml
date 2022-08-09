@@ -14,9 +14,6 @@ home:
   limit_activities: 6
 
 collections:
-  services:
-    output: true
-    sort_by: weight
   activities:
     output: true
     sort_by: weight
@@ -24,11 +21,6 @@ collections:
     output: true
 
 defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
   - scope:
       path: ""
       type: "activities"
