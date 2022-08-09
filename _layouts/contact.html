@@ -4,13 +4,52 @@ layout: default
 bodyClass: "page-contact"
 ---
 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
     <div class="row justify-content-start">
         <div class="col-12 col-md-8">
             <div class="service service-single">
-                <h1 class="title">{{page.title}}</h1>
-                {% include call.html show_button=false %}
-                <div class="content mt-4">{{content}}</div>
+                <h1 class="title"> Contact us</h1>
+
+                <div class="container contact-form">
+
+                    <form action="https://formsubmit.co/5e35bcc16c7bc7fa3a34a96a6b61bfc3" method="POST" role="form">
+                        <input type="hidden" name="_template" value="table">
+
+                        <div class="row">
+                            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+                                <div class="col-md-12 text-center">
+                                    <div class="form-group">
+                                        <input type="text" name="FullName" class="form-control"
+                                            placeholder="Your Name *" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="Email" class="form-control" placeholder="Your Email *"
+                                            value="" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject *"
+                                            value="" required />
+                                        <input type="hidden" name="_subject" value="New submission!">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <textarea name="Message" class="form-control" placeholder="Your Message *"
+                                            style="width: 100%; height: 150px;" required></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" class="button button-primary" value="Send Message" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
