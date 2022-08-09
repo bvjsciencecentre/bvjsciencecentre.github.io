@@ -1,7 +1,4 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 5
   - name: "Events"
     url: "/events/"
     weight: 3
@@ -13,10 +10,10 @@ main:
     weight: 2
   - name: "Contact"
     url: "/contact/"
-    weight: 6
+    weight: 5
   - name: "Activities"
     url: "/activities/"
-    weight: 7
+    weight: 4
 
 footer:
   - name: "Home"
@@ -24,4 +21,4 @@ footer:
     weight: 1
   - name: "Contact"
     url: "/contact/"
-    weight: 6
+    weight: 5
