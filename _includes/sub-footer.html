@@ -1,6 +1,4 @@
-<style>
 
-</style>
 
 <div class="sub-footer">
   <div class="container-fluid px-0 py-4 mx-auto">
@@ -93,13 +91,16 @@
               </div>
             </div>
             <div class="col-md-7 d-flex justify-content-center mb-3">
+              
               {% assign footermenu = site.data.menus.footer | sort: 'weight' %}
               {% for item in footermenu %}
-              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3">
-                <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+              
+              <div class="d-inline-flex justify-content-center px-2 px-md-2 px-lg-3 pt-3 button-primary">
+                  <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
               </div>
-              </li>
+              
               {% endfor %}
+              </ul>
             </div>
           </div>
         </div>
