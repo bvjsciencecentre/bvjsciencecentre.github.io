@@ -11,8 +11,6 @@ end_time: "05:30 PM"
 organiser: "BVJSC-kSTA"
 ---
 
-<br>
-
 ![Workshop on Science Journalism](/images/events/wsj.jpg "Workshop collage")
 
 <!-- ======= About Section ======= -->
@@ -62,7 +60,6 @@ organiser: "BVJSC-kSTA"
               <div class="col-md-2"><time>10:30 AM - 11:30 AM</time></div>
               <div class="col-md-10">
                 <h4>Inauguration - Dr. A H Rama Rao </h4>
-                <p>Facere provident incidunt quos voluptas.</p>
               </div>
             </div>
 
@@ -70,7 +67,6 @@ organiser: "BVJSC-kSTA"
               <div class="col-md-2"><time>11:30 AM - 12:00 PM</time></div>
               <div class="col-md-10">
                 <h4>Keynote Address - Sri. M K Bhaskar Rao</h4>
-                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
               </div>
             </div>
 
@@ -78,7 +74,6 @@ organiser: "BVJSC-kSTA"
               <div class="col-md-2"><time>12:00 PM - 01:00 PM</time></div>
               <div class="col-md-10">
                 <h4>Need for Science Communication - Dr. H S Niranjanaradhya </h4>
-                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
               </div>
             </div>
 
@@ -93,7 +88,6 @@ organiser: "BVJSC-kSTA"
               <div class="col-md-2"><time>01:45 PM - 02:45 PM</time></div>
               <div class="col-md-10">
                 <h4>Changing challenges of science communication - Dr. H R Krishnamurthy</h4>
-                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
               </div>
             </div>
 
@@ -101,7 +95,6 @@ organiser: "BVJSC-kSTA"
               <div class="col-md-2"><time>02:45 PM - 03:45 PM</time></div>
               <div class="col-md-10">
                 <h4>Ways of communicating science to Indian audience - Mr. M S Chaitra</h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
               </div>
             </div>
 
@@ -116,7 +109,6 @@ organiser: "BVJSC-kSTA"
               <div class="col-md-2"><time>04:00 PM - 05:00 PM</time></div>
               <div class="col-md-10">
                 <h4>How to produce short science videos - Ms. Manasi KG</h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
               </div>
             </div>
 
@@ -124,7 +116,6 @@ organiser: "BVJSC-kSTA"
               <div class="col-md-2"><time>05:00 PM - 05:30 PM</time></div>
               <div class="col-md-10">
                 <h4>Making participant teams for competitions - Prof. Cheluvappa S</h4>
-                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
               </div>
             </div>
 
