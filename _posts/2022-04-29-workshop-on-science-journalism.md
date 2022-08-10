@@ -8,10 +8,12 @@ start_time: "10:30 AM"
 end_time: "05:30 PM"
 
 #event organiser details
-organiser: "Frank Smith"
+organiser: "BVJSC-kSTA"
 ---
 
 <br>
+
+![Workshop on Science Journalism](/images/events/wsj.jpg "Workshop collage")
 
 <!-- ======= About Section ======= -->
   <section id="about">
