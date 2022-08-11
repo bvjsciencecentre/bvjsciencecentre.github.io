@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X7 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="55px" height="23px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 61 25"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="192px" height="80px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 211 88"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
-  <font id="FontID2" horiz-adv-x="656" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+  <font id="FontID2" horiz-adv-x="656" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="700">
 	<font-face 
 		font-family="Myriad Pro">
 	</font-face>
@@ -60,49 +60,49 @@ viewBox="0 0 61 25"
     .fil1 {fill:#FEFEFE}
     .fil0 {fill:#045199}
     .fil2 {fill:#045199}
-    .fnt4 {font-weight:bold;font-size:1.94864px;font-family:'Myriad Pro'}
-    .fnt3 {font-weight:bold;font-size:2.74709px;font-family:'Myriad Pro'}
-    .fnt2 {font-weight:normal;font-size:7.82198px;font-family:'Futura Bk BT'}
-    .fnt1 {font-weight:normal;font-size:10.8615px;font-family:'Futura Bk BT'}
-    .fnt0 {font-weight:bold;font-size:13.2777px;font-family:'Futura Md BT'}
+    .fnt4 {font-weight:bold;font-size:6.80253px;font-family:'Myriad Pro'}
+    .fnt3 {font-weight:bold;font-size:9.58982px;font-family:'Myriad Pro'}
+    .fnt2 {font-weight:normal;font-size:27.3058px;font-family:'Futura Bk BT'}
+    .fnt1 {font-weight:normal;font-size:37.9165px;font-family:'Futura Bk BT'}
+    .fnt0 {font-weight:bold;font-size:46.3512px;font-family:'Futura Md BT'}
    ]]>
   </style>
  </defs>
  <g id="Layer_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_1617998711824">
-   <rect class="fil0" x="4" width="21.8991" height="21.8991"/>
+  <g id="_1617998660240">
+   <rect class="fil0" x="12" width="76.4479" height="76.4479"/>
    <g>
-    <path class="fil0" d="M3 0c8,0 15,0 22,0 0,7 0,15 0,22 -7,0 -14,0 -22,0 0,-7 0,-15 0,-22z"/>
-    <path class="fil0" d="M3 0c8,0 15,0 22,0 0,8 0,15 0,22 -7,0 -14,0 -22,0 0,-7 0,-14 0,-22z"/>
-    <path class="fil0" d="M3 0c7,0 15,0 22,0 0,8 0,15 0,22 -7,0 -15,0 -22,0 0,-7 0,-14 0,-22z"/>
-    <path class="fil0" d="M3 1c7,0 14,0 22,0 0,7 0,14 0,22 -8,0 -15,0 -22,0 0,-8 0,-15 0,-22z"/>
-    <path class="fil0" d="M3 1c7,0 14,0 22,0 0,7 0,14 0,22 -8,0 -15,0 -22,0 0,-8 0,-15 0,-22z"/>
-    <path class="fil0" d="M3 1c7,0 14,0 21,0 0,7 0,15 0,22 -7,0 -14,0 -21,0 0,-7 0,-15 0,-22z"/>
-    <path class="fil0" d="M2 1c8,0 15,0 22,0 0,7 0,15 0,22 -7,0 -14,0 -22,0 0,-7 0,-15 0,-22z"/>
-    <path class="fil0" d="M2 1c8,0 15,0 22,0 0,8 0,15 0,22 -7,0 -14,0 -22,0 0,-7 0,-14 0,-22z"/>
-    <path class="fil0" d="M2 1c7,0 15,0 22,0 0,8 0,15 0,22 -7,0 -15,0 -22,0 0,-7 0,-14 0,-22z"/>
-    <path class="fil0" d="M2 2c7,0 14,0 22,0 0,7 0,14 0,21 -8,0 -15,0 -22,0 0,-7 0,-14 0,-21z"/>
-    <path class="fil0" d="M2 2c7,0 14,0 22,0 0,7 0,14 0,22 -8,0 -15,0 -22,0 0,-8 0,-15 0,-22z"/>
-    <path class="fil0" d="M2 2c7,0 14,0 21,0 0,7 0,15 0,22 -7,0 -14,0 -21,0 0,-7 0,-15 0,-22z"/>
-    <path class="fil0" d="M1 2c8,0 15,0 22,0 0,7 0,15 0,22 -7,0 -14,0 -22,0 0,-7 0,-15 0,-22z"/>
-    <path class="fil0" d="M1 2c7,0 15,0 22,0 0,8 0,15 0,22 -7,0 -15,0 -22,0 0,-7 0,-14 0,-22z"/>
-    <path class="fil0" d="M1 2c7,0 15,0 22,0 0,8 0,15 0,22 -7,0 -15,0 -22,0 0,-7 0,-14 0,-22z"/>
-    <path class="fil0" d="M1 3c7,0 14,0 22,0 0,7 0,14 0,21 -8,0 -15,0 -22,0 0,-7 0,-14 0,-21z"/>
-    <path class="fil0" d="M1 3c7,0 14,0 22,0 0,7 0,14 0,22 -8,0 -15,0 -22,0 0,-8 0,-15 0,-22z"/>
-    <path class="fil0" d="M1 3c7,0 14,0 21,0 0,7 0,14 0,22 -7,0 -14,0 -21,0 0,-8 0,-15 0,-22z"/>
-    <path class="fil0" d="M0 3c8,0 15,0 22,0 0,7 0,15 0,22 -7,0 -14,0 -22,0 0,-7 0,-15 0,-22z"/>
-    <path class="fil0" d="M0 3c7,0 15,0 22,0 0,7 0,15 0,22 -7,0 -15,0 -22,0 0,-7 0,-15 0,-22z"/>
+    <path class="fil0" d="M12 1c25,0 51,0 76,0 0,25 0,51 0,76 -25,0 -51,0 -76,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M11 1c26,0 51,0 77,0 0,26 0,51 0,77 -26,0 -51,0 -77,0 0,-26 0,-51 0,-77z"/>
+    <path class="fil0" d="M11 2c25,0 51,0 76,0 0,25 0,51 0,76 -25,0 -51,0 -76,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M10 2c26,0 51,0 77,0 0,26 0,51 0,77 -26,0 -51,0 -77,0 0,-26 0,-51 0,-77z"/>
+    <path class="fil0" d="M10 3c25,0 50,0 76,0 0,25 0,51 0,76 -26,0 -51,0 -76,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M9 3c25,0 51,0 76,0 0,26 0,51 0,77 -25,0 -51,0 -76,0 0,-26 0,-51 0,-77z"/>
+    <path class="fil0" d="M8 4c26,0 51,0 77,0 0,25 0,51 0,76 -26,0 -51,0 -77,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M8 4c25,0 51,0 76,0 0,26 0,51 0,77 -25,0 -51,0 -76,0 0,-26 0,-51 0,-77z"/>
+    <path class="fil0" d="M7 5c26,0 51,0 77,0 0,26 0,51 0,76 -26,0 -51,0 -77,0 0,-25 0,-50 0,-76z"/>
+    <path class="fil0" d="M7 6c25,0 51,0 76,0 0,25 0,51 0,76 -25,0 -51,0 -76,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M6 6c25,0 51,0 76,0 0,26 0,51 0,77 -25,0 -51,0 -76,0 0,-26 0,-51 0,-77z"/>
+    <path class="fil0" d="M5 7c26,0 51,0 77,0 0,25 0,51 0,76 -26,0 -51,0 -77,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M5 7c25,0 51,0 76,0 0,26 0,51 0,77 -25,0 -51,0 -76,0 0,-26 0,-51 0,-77z"/>
+    <path class="fil0" d="M4 8c26,0 51,0 77,0 0,25 0,51 0,76 -26,0 -51,0 -77,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M4 8c25,0 51,0 76,0 0,26 0,51 0,77 -25,0 -51,0 -76,0 0,-26 0,-51 0,-77z"/>
+    <path class="fil0" d="M3 9c25,0 51,0 76,0 0,25 0,51 0,76 -25,0 -51,0 -76,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M2 9c26,0 51,0 77,0 0,26 0,51 0,77 -26,0 -51,0 -77,0 0,-26 0,-51 0,-77z"/>
+    <path class="fil0" d="M2 10c25,0 51,0 76,0 0,26 0,51 0,76 -25,0 -51,0 -76,0 0,-25 0,-50 0,-76z"/>
+    <path class="fil0" d="M1 11c26,0 51,0 77,0 0,25 0,51 0,76 -26,0 -51,0 -77,0 0,-25 0,-51 0,-76z"/>
+    <path class="fil0" d="M1 11c25,0 51,0 76,0 0,26 0,51 0,77 -25,0 -51,0 -76,0 0,-26 0,-51 0,-77z"/>
    </g>
-   <rect class="fil0" y="3" width="21.8991" height="21.8991"/>
-   <g transform="matrix(0.948964 0 0 1 -27.0541 -0.0292661)">
-    <text x="28" y="18"  class="fil1 fnt0">BVJ</text>
+   <rect class="fil0" y="12" width="76.4479" height="76.4479"/>
+   <g transform="matrix(0.948964 0 0 1 -94.4435 -0.102165)">
+    <text x="96" y="63"  class="fil1 fnt0">BVJ</text>
    </g>
    <g>
-    <text x="27" y="12"  class="fil2 fnt1">science </text>
-    <text x="27" y="18"  class="fil2 fnt2">centre</text>
-    <text x="27" y="22"  class="fil0 fnt3">The National College</text>
-    <text x="27" y="24"  class="fil0 fnt4">Jayanagar, Bangalore</text>
+    <text x="94" y="44"  class="fil2 fnt1">science </text>
+    <text x="94" y="63"  class="fil2 fnt2">centre</text>
+    <text x="95" y="75"  class="fil0 fnt3">The National College</text>
+    <text x="95" y="84"  class="fil0 fnt4">Jayanagar, Bangalore</text>
    </g>
   </g>
  </g>
