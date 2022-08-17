@@ -60,8 +60,8 @@ bodyClass: "page-home"
 
 
 
-<!--
-{% if site.data.features %}
+
+<!--{% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
@@ -82,5 +82,29 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
+{% endif %}-->
+
+{% if site.data.colloborations %}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+    <div class="container">
+        <h3 align="center"> Our Colloborations </h3>
+    </div>
+      {% for colloboration in site.data.colloborations %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="colloboration">
+          {% if colloboration.image %}
+          <div class="colloboration-image"><img alt="{{ colloboration.title }} logo" src="{{ colloboration.image.url | relative_url }}"
+              width="{{ colloboration.image.width }}" height="{{ colloboration.image.height }}" /></div>
+          {% endif %}
+          <h5 class="colloboration-title">{{ colloboration.title }}</h5>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
 {% endif %}
--->
+
