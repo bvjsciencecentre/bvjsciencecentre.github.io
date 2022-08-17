@@ -4,7 +4,8 @@ date: 2021-11-24T10:30:00+05:30
 weight: 1
 ---
 
-![Student Scientist Interaction Program](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+![Student Scientist Interaction Program](/images/activities/ssip.jpg "Scientists interacting with students")
+
 
 To promote the involvement of students and teachers in scientific research activities, thereby understand the role of scientific attitude in building their personality. Our aim is to imbibe scientific bent of mind in the young minds by encouraging them to
 ask questions and strike a discussion with eminent scientists. These discussions will not
