@@ -3,12 +3,17 @@ layout: post
 
 #event information
 title: "Workshop on Science Journalism"
+organiser-name: "BVJ Science Centre in colloboration with Kuvempu Bhasha Pradhikara, GoK"
 date: 2022-04-29
 start_time: "10:30 AM"
 end_time: "05:30 PM"
+show_date: false
+show_time: false
+show_register: true
+show_feedback: true
+registration-link: "https://www.google.com"
+feedback-link: "https://www.yahoo.com"
 
-#event organiser details
-organiser: "BVJSC-kSTA"
 ---
 
 ![Workshop on Science Journalism](/images/events/wsj.jpg "Workshop collage")
