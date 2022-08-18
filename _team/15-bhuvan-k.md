@@ -4,9 +4,9 @@ date: 2022-08-17T10:47:58+10:00
 draft: false
 image: 
 jobtitle: "B.C.A Student"
-linkedinurl: 
+linkedinurl: "https://www.linkedin.com/in/bhuvan-k-a692581b2/"
 promoted: true
-weight: 15
+weight: 
 layout: team
 position: "Crew"
 ---

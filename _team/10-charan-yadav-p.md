@@ -6,7 +6,7 @@ image:
 jobtitle: "B.C.A Student"
 linkedinurl: "https://www.linkedin.com/in/cleo25/"
 promoted: true
-weight: 10
+weight: 
 layout: team
 position: "Crew"
 ---
