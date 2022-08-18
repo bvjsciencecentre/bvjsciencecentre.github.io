@@ -6,7 +6,7 @@ image:
 jobtitle: "B.C.A Student"
 linkedinurl: "https://www.linkedin.com/in/chandan-nl-6410bb249/"
 promoted: true
-weight: 19
+weight: 
 layout: team
 position: "Crew"
 ---

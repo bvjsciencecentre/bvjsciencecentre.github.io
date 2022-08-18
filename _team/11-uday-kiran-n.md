@@ -6,7 +6,7 @@ image:
 jobtitle: "B.C.A Student"
 linkedinurl: "https://www.linkedin.com/in/uday-kiran-n-ab1874157/"
 promoted: true
-weight: 11
+weight: 
 layout: team
 position: "Crew"
 ---
