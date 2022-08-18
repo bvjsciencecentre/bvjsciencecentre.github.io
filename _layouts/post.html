@@ -16,13 +16,13 @@ layout: default
           {% endif %}
 
           {% if page.show_date %}
-          <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{
+          <h5 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{
               page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope
-              itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
+              itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h5>
           {% endif %}
 
           {% if page.show_time %}    
-          <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
+          <h5 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h5>
           {% endif %}
         </header>
 
