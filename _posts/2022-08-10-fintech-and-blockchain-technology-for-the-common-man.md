@@ -8,6 +8,10 @@ start_time: "10:30 AM"
 end_time: "04:30 PM"
 show_date: false
 show_time: false
+show_register: true
+show_feedback: true
+registration-link: "https://www.google.com"
+feedback-link: "https://www.google.com"
 
 #event organiser details
 organiser: "BVJSC-KSTA"
