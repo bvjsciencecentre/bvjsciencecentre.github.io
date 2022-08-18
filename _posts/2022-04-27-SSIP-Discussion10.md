@@ -9,11 +9,12 @@ start_time: "10:30 AM"
 end_time: "01:00 PM"
 show_date: true
 show_time: true
-show_register: true
-show_feedback: true
+
+# Registration and Feedback 
 registration-link: "https://www.google.com"
 feedback-link: "https://www.yahoo.com"
-
+show_register: true
+show_feedback: true
 ---
 
 <br>
