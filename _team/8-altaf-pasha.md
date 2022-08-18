@@ -1,10 +1,10 @@
 ---
 title: "Mr. Altaf Pasha"
-date: 2018-11-19T10:47:58+10:00
+date: 2019-11-19T10:47:58+10:00
 draft: false
 image: "images/team/altaf-pasha.jpg"
 jobtitle: "Scientific Officer, BV Jagadeesh Science Centre"
-linkedinurl: "https://www.linkedin.com/example2"
+linkedinurl: "https://in.linkedin.com/in/altaf-pasha-73934039"
 promoted: true
 weight: 8
 layout: team

@@ -1,10 +1,10 @@
 ---
 title: "Prof. Cheluvappa S"
-date: 2018-11-19T10:47:58+10:00
+date: 2019-11-19T10:47:58+10:00
 draft: false
 image: "images/team/cheluvappa.jpg"
 jobtitle: "Faculty Incharge"
-linkedinurl: "https://www.linkedin.com/example2"
+linkedinurl: "https://www.linkedin.com/in/s-cheluvappa-72296513a/"
 promoted: true
 weight: 9
 layout: team

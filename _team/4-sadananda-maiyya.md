@@ -4,7 +4,7 @@ date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/sadananda-maiya.png"
 jobtitle: "Secretary, National Education Society of Karnataka"
-linkedinurl: "https://www.linkedin.com/example2"
+linkedinurl: 
 promoted: true
 weight: 4
 layout: team

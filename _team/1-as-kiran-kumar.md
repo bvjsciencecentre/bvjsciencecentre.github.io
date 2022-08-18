@@ -4,7 +4,7 @@ date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/as-kiran-kumar.jpg"
 jobtitle: "Former Chairman, ISRO"
-linkedinurl: "https://www.linkedin.com/"
+linkedinurl: 
 promoted: true
 weight: 1
 layout: team
