@@ -4,7 +4,7 @@ date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "images/team/ah-rama-rao.png"
 jobtitle: "President, National Education Society of Karnataka"
-linkedinurl: "https://www.linkedin.com/example2"
+linkedinurl: 
 #promoted: true
 weight: 2
 layout: team

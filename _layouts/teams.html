@@ -37,9 +37,9 @@ bodyClass: "page-teams"
                 <div class="team-meta">
                     <h2 class="team-name"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
                     <p class="team-description">{{ item.jobtitle }}</p>
-                    <!-- {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
-                    {% endif %} -->
+                    {% if item.linkedinurl %}
+                    <a target="_blank" href="{{ item.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+                    {% endif %} 
                 </div>
             </div>
         </div>
