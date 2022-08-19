@@ -17,6 +17,9 @@ collections:
   activities:
     output: true
     sort_by: weight
+  facilities:
+    output: true
+    sort_by: weight
   team:
     output: true
 
@@ -26,6 +29,11 @@ defaults:
       type: "activities"
     values:
       layout: "activity"
+  - scope:
+      path: ""
+      type: "facilities"
+    values:
+      layout: "facility"
   - scope:
       path: ""
       type: "team"
