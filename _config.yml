@@ -20,6 +20,9 @@ collections:
   facilities:
     output: true
     sort_by: weight
+  galleries:
+    output: true
+    sort_by: weight
   team:
     output: true
 
@@ -44,6 +47,11 @@ defaults:
       type: "events"
     values:
       layout: "eventpage"
+  - scope:
+      path: ""
+      type: "galleries"
+    values:
+      layout: "gallery"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
