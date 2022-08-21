@@ -24,7 +24,15 @@ layout: default
           {% if page.show_time %}    
           <h5 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h5>
           {% endif %}
+
+          <div class="share-post">
+            <i class="fa fa-share-alt-square fa-fw" aria-hidden="true"></i>&nbsp;Share:&nbsp;
+            {% include share-buttons.html %}
+          </div>
+
         </header>
+        
+
 
 
         <div class="post-content" itemprop="articleBody">
