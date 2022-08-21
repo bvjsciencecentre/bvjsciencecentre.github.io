@@ -3,7 +3,7 @@ title: "Prof. KS Nataraj"
 date: 2019-11-19T10:47:58+10:00
 draft: false
 image: "images/team/ks-nataraj.jpg"
-jobtitle: "Director, BV Jagadeesh Science Centre"
+jobtitle: "Director"
 linkedinurl: "https://in.linkedin.com/in/nataraj-k-s-a6a94626"
 promoted: true
 weight: 7
