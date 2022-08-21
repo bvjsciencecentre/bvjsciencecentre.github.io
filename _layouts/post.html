@@ -10,9 +10,9 @@ layout: default
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
         <header class="post-header">
-          <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+          <h3 class="post-title" itemprop="name headline">{{ page.title }}</h3>
           {% if page.organiser-name %}
-          <h5 class="post-organisers-name">by {{page.organiser-name}}</h5>
+          <h6 class="post-organisers-name">by {{page.organiser-name}}</h6>
           {% endif %}
 
           {% if page.show_date %}
@@ -24,7 +24,15 @@ layout: default
           {% if page.show_time %}    
           <h5 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h5>
           {% endif %}
+
+          <div class="share-post">
+            <i class="fa fa-share-alt-square fa-fw" aria-hidden="true"></i>&nbsp;Share:&nbsp;
+            {% include share-buttons.html %}
+          </div>
+
         </header>
+        
+
 
 
         <div class="post-content" itemprop="articleBody">

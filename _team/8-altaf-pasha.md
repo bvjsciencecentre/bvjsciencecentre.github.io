@@ -3,7 +3,7 @@ title: "Mr. Altaf Pasha"
 date: 2019-11-19T10:47:58+10:00
 draft: false
 image: "images/team/altaf-pasha.jpg"
-jobtitle: "Scientific Officer, BV Jagadeesh Science Centre"
+jobtitle: "Scientific Officer"
 linkedinurl: "https://in.linkedin.com/in/altaf-pasha-73934039"
 promoted: true
 weight: 8
