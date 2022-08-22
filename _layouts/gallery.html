@@ -21,7 +21,7 @@ bodyClass: "page-gallery"
               {% endif %}
               {% capture picture_url %}{{picture.url}}{% endcapture %}
               <a href="{{picture_url}}" data-lightbox="{{page.gallery_id}}" title="{{picture.caption}}">
-                <img src="{{picture_url}}" />
+                <img src="{{picture_url}}" class="img-fluid" />
               </a>
             </div>
             {% endfor %}
