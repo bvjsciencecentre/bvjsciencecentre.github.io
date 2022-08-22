@@ -68,6 +68,8 @@ future: true
 
 permalink: /events/:title.html
 
+developer_mode: true  
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -82,6 +84,7 @@ exclude:
 
 cloudinary:
   cloud_name: "dxnndq0qu"
+  verbose: true
   presets:
     default:
       min_width: 320
