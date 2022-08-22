@@ -56,9 +56,9 @@ defaults:
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
-plugins:
-  - jekyll-environment-variables
-  - jekyll-cloudinary
+#plugins:
+#  - jekyll-environment-variables
+#  - jekyll-cloudinary
 
 # Build settings
 markdown: kramdown
