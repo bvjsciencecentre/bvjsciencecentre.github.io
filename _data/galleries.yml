@@ -1,0 +1,17 @@
+galleries:
+  wfbcm:
+    pictures:
+      - url: "https://res.cloudinary.com/dxnndq0qu/image/upload/v1660979073/IMG_4394_vthndx.jpg"
+        caption: "Second Day of Workshop"
+      - url: "https://res.cloudinary.com/dxnndq0qu/image/upload/v1660979071/IMG_4324_jej93f.jpg"
+        caption: "2"
+      - url: "https://res.cloudinary.com/dxnndq0qu/image/upload/v1660979071/IMG_4132_w1w1u9.jpg"
+        caption: "3"
+      - url: "https://res.cloudinary.com/dxnndq0qu/image/upload/v1660979074/IMG_4440_m7ljji.jpg"
+        caption: "4"
+      - url: "https://res.cloudinary.com/dxnndq0qu/image/upload/v1660979072/IMG_4272_qlnxfd.jpg"
+        caption: "5"
+  gallery2:
+    pictures:
+      - url: "you-get-it.png"
+        caption: "I think you see how this works now."
