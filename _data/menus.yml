@@ -20,8 +20,8 @@ main:
   - name: "Contact"
     url: "/contact/"
     weight: 7
-  - name: "Gallery"
-    url: "/gallery/"
+  - name: "Galleries"
+    url: "/galleries/"
     weight: 8
 
 
