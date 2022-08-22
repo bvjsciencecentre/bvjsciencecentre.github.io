@@ -24,7 +24,7 @@ bodyClass: "page-gallery"
                 {% if site.developer_mode %}
                 <img src="{{picture_url}}" />
                 {% else %}
-                {% cloudinary {{picture_url}} %}
+                {% cloudinary {{ picture_url }} %}
                 {% endif %}
               </a>
             </div>
