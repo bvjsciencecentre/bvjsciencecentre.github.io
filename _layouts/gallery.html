@@ -21,9 +21,7 @@ bodyClass: "page-gallery"
               {% endif %}
               {% capture picture_url %}{{picture.url}}{% endcapture %}
               <a href="{{picture_url}}" data-lightbox="{{page.gallery_id}}" title="{{picture.caption}}">
-                <!--{% if site.developer_mode %}-->
                 <img src="{{picture_url}}" />
-                <!--{% endif %}-->
               </a>
             </div>
             {% endfor %}
