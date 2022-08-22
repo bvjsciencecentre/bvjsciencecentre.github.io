@@ -23,8 +23,8 @@ bodyClass: "page-gallery"
               <a href="{{picture_url}}" data-lightbox="{{page.gallery_id}}" title="{{picture.caption}}">
                 {% if site.developer_mode %}
                 <img src="{{picture_url}}" />
-                {% else %}
-                {% cloudinary {{ picture_url }} %}
+                <!--{% else %}
+                {% cloudinary {{ picture_url }} %}-->
                 {% endif %}
               </a>
             </div>
