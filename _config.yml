@@ -68,7 +68,7 @@ future: true
 
 permalink: /events/:title.html
 
-developer_mode: true  
+#developer_mode: true  
 
 exclude:
   - Gemfile
