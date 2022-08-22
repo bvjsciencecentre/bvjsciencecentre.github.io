@@ -56,8 +56,9 @@ defaults:
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
-plugins:
-  - jekyll-environment-variables
+#plugins:
+#  - jekyll-environment-variables
+#  - jekyll-cloudinary
 
 # Build settings
 markdown: kramdown
@@ -66,6 +67,8 @@ markdown: kramdown
 future: true
 
 permalink: /events/:title.html
+
+#developer_mode: true  
 
 exclude:
   - Gemfile
@@ -78,3 +81,14 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+cloudinary:
+  cloud_name: "dxnndq0qu"
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1280
+      fallback_max_width: 800
+      steps: 4
+      sizes: "(min-width: 50rem) 50rem, 90vw"

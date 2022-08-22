@@ -9,6 +9,24 @@ bodyClass: "page-gallery"
       <div class="gallery gallery-single">
         <h4 class="title">{{page.title}}</h4>
         <div class="content">{{content}}</div>
+
+        {% capture year %}{{ page.date | date: "%Y" }}{% endcapture %}
+        {% capture month %}{{ page.date | date: "%m" }}{% endcapture %}
+        <div class="mdl-grid">
+          {% for picture in site.data.galleries.galleries[page.gallery_id].pictures %}
+          {% if site.data.galleries.galleries[page.gallery_id].pictures.size > 1 %}
+          <div class="mdl-cell mdl-cell--4-col">
+            {% else %}
+            <div class="mdl-cell mdl-cell--12-col">
+              {% endif %}
+              {% capture picture_url %}{{picture.url}}{% endcapture %}
+              <a href="{{picture_url}}" data-lightbox="{{page.gallery_id}}" title="{{picture.caption}}">
+                <img src="{{picture_url}}" />
+              </a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
