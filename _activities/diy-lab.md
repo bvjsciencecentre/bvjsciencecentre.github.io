@@ -1,6 +1,6 @@
 ---
 title: "Do-It-Yourself Lab"
-date: 2022-01-28T15:15:26+10:00
+date: 2022-01-28T15:15:26+05:30
 weight: 2
 ---
 

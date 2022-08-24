@@ -23,7 +23,6 @@ bodyClass: "page-home"
   </div>
 </div>
 
-
 {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
 {% for post in site.posts reversed %}
 {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
@@ -39,23 +38,6 @@ bodyClass: "page-home"
 </div>
 {% endif %}
 {% endfor %}
-
-{% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
-{% for post in site.posts reversed %}
-{% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-{% if blogDate == currentDate %}
-<div class="container pt-6 pb-6">
-  <div class="clearfix">
-    <h1 class="event-time-heading fix-top">Ongoing Event</h1>
-    <a href="{{ post.url | relative_url }}">
-      <h4>{{ post.title }}</h4>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-    </a>
-  </div>
-</div>
-{% endif %}
-{% endfor %}
-
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
