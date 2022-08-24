@@ -17,8 +17,7 @@ layout: default
 
           {% if page.show_date %}
           <h5 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{
-              page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope
-              itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h5>
+              page.date | date: "%B %-d, %Y" }}</time></h5>
           {% endif %}
 
           {% if page.show_time %}    
@@ -29,12 +28,8 @@ layout: default
             <i class="fa fa-share-alt-square fa-fw" aria-hidden="true"></i>&nbsp;Share:&nbsp;
             {% include share-buttons.html %}
           </div>
-
         </header>
         
-
-
-
         <div class="post-content" itemprop="articleBody">
           {{ content }}
         </div>

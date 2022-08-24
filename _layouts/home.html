@@ -23,10 +23,29 @@ bodyClass: "page-home"
   </div>
 </div>
 
+{% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+{% for post in site.posts reversed %}
+{% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+{% if blogDate >= currentDate %}
+<div class="container pt-6 pb-6">
+  <div class="clearfix">
+    <h1 class="event-time-heading fix-top">Future Events </h1>
+    <a href="{{ post.url | relative_url }}">
+      <h4>{{ post.title }}</h4>
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+    </a>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
-      <iframe class="responsive iframe" width="560" height="315" src="https://www.youtube.com/embed/byIonhayHVM?start=41" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      <iframe class="responsive iframe" width="560" height="315"
+        src="https://www.youtube.com/embed/byIonhayHVM?start=41" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
       </iframe>
       </iframe>
     </div>
@@ -52,51 +71,27 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "activities" | relative_url }}">View all activities</a>
+        <a class="button button-primary" href="{{ " activities" | relative_url }}">View all activities</a>
       </div>
     </div>
   </div>
 </div>
 
-
-
-
-<!--{% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}"
-              width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}-->
 
 {% if site.data.colloborations %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
-    <div class="container">
+      <div class="container">
         <h3 align="center"> Our Colloborations </h3>
-    </div>
+      </div>
       {% for colloboration in site.data.colloborations %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="colloboration">
           {% if colloboration.image %}
-          <div class="colloboration-image"><img alt="{{ colloboration.title }} logo" src="{{ colloboration.image.url | relative_url }}"
-              width="{{ colloboration.image.width }}" height="{{ colloboration.image.height }}" /></div>
+          <div class="colloboration-image"><img alt="{{ colloboration.title }} logo"
+              src="{{ colloboration.image.url | relative_url }}" width="{{ colloboration.image.width }}"
+              height="{{ colloboration.image.height }}" /></div>
           {% endif %}
           <h5 class="colloboration-title">{{ colloboration.title }}</h5>
         </div>
@@ -107,4 +102,3 @@ bodyClass: "page-home"
   </div>
 </div>
 {% endif %}
-
