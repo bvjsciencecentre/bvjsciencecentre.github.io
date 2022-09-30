@@ -66,7 +66,12 @@ markdown: kramdown
 #Have to show future posts for future events.
 future: true
 
-permalink: /events/:title.html
+permalink: /events/:title/
+permalink: /team/:title/
+permalink: /activities/:title/
+permalink: /facilities/:title/
+permalink: /galleries/:title/
+
 
 #developer_mode: true  
 
