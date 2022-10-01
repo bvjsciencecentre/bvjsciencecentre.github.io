@@ -47,5 +47,54 @@
       "width": 80,
       "height": 80
     }
+  },
+  {
+    "title": "Karnataka Science and Technology Academy",
+    "image": {
+      "url": "images/colloborations/KSTA-logo.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Jawaharlal Nehru Planetarium",
+    "image": {
+      "url": "images/colloborations/JNP-logo.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Karnataka Bhasha Pradhikara, GoK",
+    "weight": 2,
+    "image": {
+      "url": "images/colloborations/KBP-logo2.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Karnataka Science and Technology Promotion Society",
+    "image": {
+      "url": "images/colloborations/KSTEPS-logo.jpg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Innovation and Science Promotion Foundation",
+    "image": {
+      "url": "images/colloborations/ISPF-logo.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Swami Vivekananda Youth Movement",
+    "image": {
+      "url": "images/colloborations/SVYM-logo.png",
+      "width": 80,
+      "height": 80
+    }
   }
 ]
