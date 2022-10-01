@@ -24,7 +24,7 @@ bodyClass: "page-teams"
     {% assign teams_grouped = site.team | group_by: 'position' | sort: "weight" %}
     {% for group in teams_grouped %}
     <div class="container">
-        <h3>{{group.name}}</h3>
+      <br><h3>{{group.name}}</h3><br>
     </div>    
         {% for item in group.items %}
         <div class="col-12 col-md-6 mb-2">
