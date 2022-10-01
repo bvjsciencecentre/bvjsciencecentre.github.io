@@ -3,37 +3,50 @@ layout: default
 bodyClass: "page-events"
 ---
 
-
-
 <div class="container pt-6 pb-6">
-  {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
-  <div class="clearfix">
-    <h1 class="event-time-heading fix-top">Future {% if site.event_label %} {{site.event_label}} {% else %} Events {%
-      endif %} </h1>
-    {% for post in site.posts reversed %}
-    {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-    {% if blogDate >= currentDate %}
-    <a href="{{ post.url | relative_url }}">
-      <h4>{{ post.title }}</h4>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-    </a>
-    {% endif %}
-    {% endfor %}
+ {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+<h1> Future Events </h1><br>
+ {% for post in site.posts reversed %}
+ {% capture blogDate %}{{ post.date | date: '%s' }}{% endcapture %}
+ {% if blogDate >= currentDate %}
+  <a href="{{ post.url | relative_url }}">
+    <div class="card" style="width: 18rem;">
+      {% if post.image %}
+      <img class="card-img-top" src="{{ post.image | relative_url }}" alt="Card image cap"/>
+      {% endif %}
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text">{{ post.date | date: "%b %-d, %Y" }}</p>
+      <!-- REGISTER BUTTON
+        <a href="#" class="btn btn-primary">Register</a>-->
+    </div>
   </div>
-</div>
-
-<div class="container pt-6 pb-6">
-  <div class="clearfix">
-    <h1 class="event-time-heading">Past {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif
-      %}
-    </h1>
-    {% for post in site.posts %}
-    {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
-    {% if blogDate < currentDate %} <a href="{{ post.url | relative_url }}">
-      <h4>{{ post.title }}</h4>
-      <p class="mb-4 pb-0">{{ post.date | date: "%b %-d, %Y" }}</p>
-      </a>
+  </a><br><br>
       {% endif %}
       {% endfor %}
-  </div>
 </div>
+
+
+<div class="container pt-6 pb-6">
+ <h1> Past Events </h1><br>
+ {% for post in site.posts %}
+ {% capture blogDate %}{{post.date | date: '%s' }}{% endcapture %}
+ {% if blogDate < currentDate %}
+  <a href="{{ post.url | relative_url }}">
+    <div class="card" style="width: 18rem;">
+      {% if post.image %}
+      <img class="card-img-top" src="{{ post.image | relative_url }}" alt="Card image cap"/>
+      {% endif %}
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text">{{ post.date | date: "%b %-d, %Y" }}</p>
+      <!-- REGISTER BUTTON
+        <a href="#" class="btn btn-primary">Register</a>-->
+    </div>
+  </div>
+  </a><br><br>
+      {% endif %}
+      {% endfor %}
+</div>
+
+
