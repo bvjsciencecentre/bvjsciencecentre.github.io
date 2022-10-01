@@ -17,14 +17,22 @@ collections:
   activities:
     output: true
     sort_by: weight
+    permalink: /:collection/:title:output_ext
   facilities:
     output: true
     sort_by: weight
+    permalink: /:collection/:title:output_ext
   galleries:
     output: true
     sort_by: weight
+    permalink: /:collection/:title:output_ext
   team:
     output: true
+    permalink: /:collection/:title:output_ext
+  posts:
+    output: true
+    permalink: /events/:title:output_ext
+
 
 defaults:
   - scope:
@@ -66,12 +74,7 @@ markdown: kramdown
 #Have to show future posts for future events.
 future: true
 
-permalink: /events/:title/
-permalink: /team/:title/
-permalink: /activities/:title/
-permalink: /facilities/:title/
-permalink: /galleries/:title/
-
+permalink: pretty 
 
 #developer_mode: true  
 
