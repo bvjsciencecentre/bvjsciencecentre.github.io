@@ -147,7 +147,7 @@
 
 {% if site.data.collaborations %}
 <div class="container">
-  <h2 style="text-align:center; padding:20px">Our Collaborations</h2>
+  <h2 style="text-align:center; padding:20px; font-family: Playfair Display;">Our Collaborations</h2>
 
    <section class="collaborators-logos slider">
     {% for collaboration in site.data.collaborations %}
@@ -155,7 +155,7 @@
       <div class="slide">
         <img alt="{{ collaboration.title }} logo" src="{{ collaboration.image.url | relative_url }}" width="{{ collaboration.image.width }}"
         height="{{ collaboration.image.height }}"/>
-        <h5 class="collaboration-title">{{ collaboration.title }}</h5>
+        <h5 class="collaboration-title" style="font-family: Playfair Display;">{{ collaboration.title }}</h5>
       </div>
       {% endif %}
       {% endfor %}
