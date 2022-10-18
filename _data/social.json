@@ -1,26 +1,26 @@
 [
   {
-    "name": "Github",
+    "name": "github",
     "link": "https://https://github.com/bvjsciencecentre",
     "image": "images/social/github.svg"
   },
   {
-    "name": "Twitter",
+    "name": "twitter",
     "link": "https://twitter.com/BvjCentre",
     "image": "images/social/twitter.svg"
   },
   {
-    "name": "Facebook",
+    "name": "facebook",
     "link": "https://www.facebook.com/bvjsci",
     "image": "images/social/facebook.svg"
   },
   {
-    "name": "Instagram",
+    "name": "instagram",
     "link": "https://www.instagram.com/bvj.sci/",
     "image": "images/social/instagram.svg"
   },
   {
-    "name": "Youtube",
+    "name": "youtube",
     "link": "https://www.youtube.com/channel/UCGhzErLIBdgtPmk_VTpC1cA/",
     "image": "images/social/youtube.svg"
   }
