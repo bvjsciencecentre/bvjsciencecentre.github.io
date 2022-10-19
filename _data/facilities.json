@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Museum",
+    "description": "Museum has a number of experiments of Physics. Scale models of Rockets and Satellites donated by ISRO are exhibited at the museum",
+    "image": {
+      "url": "images/intro/activities.jpg",
+      "alt": "Museum"
+    }
+  },
+  {
+    "title": "Multimedia Hall",
+    "description": "A state-of-the-art Audio Visual Hall with 150 seating capacity",
+    "image": {
+      "url": "images/activities/ssip.jpg",
+      "alt": "Multimedia Hall"
+    }
+  },
+  {
+    "title": "Journalism Lab",
+    "description": "We have a exclusive lab for Journalism",
+    "image": {
+      "url": "images/events/wsj.jpg",
+      "alt": "Journalism Lab"
+    }
+  },
+  {
+    "title": "Weather Monitoring Station",
+    "description": "The Current Weather monitoring station was donated by ISRO",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "alt": "Weather Monitoring Station"
+    }
+  }
+]

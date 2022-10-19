@@ -42,11 +42,6 @@ defaults:
       layout: "activity"
   - scope:
       path: ""
-      type: "facilities"
-    values:
-      layout: "facility"
-  - scope:
-      path: ""
       type: "team"
     values:
       layout: "team"
