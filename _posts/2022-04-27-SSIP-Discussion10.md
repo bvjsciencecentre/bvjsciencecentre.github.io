@@ -7,12 +7,12 @@ organiser-name:
 date:   2022-04-27
 start_time: "10:30 AM"
 end_time: "01:00 PM"
-show_date: true
-show_time: true
+show_date: false
+show_time: false
 
 # Registration and Feedback 
-registration-link: "https://www.google.com"
-feedback-link: "https://www.yahoo.com"
+registration-link: ""
+feedback-link: ""
 show_register: true
 show_feedback: true
 ---
